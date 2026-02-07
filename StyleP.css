@@ -32,6 +32,7 @@
     display: block;
     padding: 10px;
     text-decoration: none;
+    white-space: nowrap;
     color: rgb(255, 255, 255);
 }
 .menu ul li a :hover {
@@ -41,5 +42,5 @@
 .menu li a {
     text-decoration: none;
     padding: 10px;
-   color: aliceblue;
+   color: rgb(255, 255, 255);
 }
