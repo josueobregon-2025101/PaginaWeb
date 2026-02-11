@@ -44,3 +44,27 @@
     padding: 10px;
    color: rgb(255, 255, 255);
 }
+.info-box {
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-left: 8px solid #FF7A00;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+    font-family: Arial, sans-serif;
+}
+
+.info-box h2 {
+    color: #121212;
+    margin-bottom: 15px;
+}
+
+.info-box h3 {
+    color: #FF7A00;
+    margin-top: 20px;
+}
+
+.info-box p {
+    color: #2A2A2A;
+    line-height: 1.6;
+}
