@@ -1,3 +1,12 @@
+body{
+    background-image: url(/images/imagenFondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+}
+
 *{
     padding: 0%;
     margin: 0%;
@@ -8,6 +17,12 @@
     list-style:none;
     background-color: #1f3c88;
     padding: 20px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .menu li{
@@ -35,7 +50,7 @@
     white-space: nowrap;
     color: rgb(255, 255, 255);
 }
-.menu ul li a :hover {
+.menu ul li a:hover {
     color: rgb(255, 255, 255);
 }
 
