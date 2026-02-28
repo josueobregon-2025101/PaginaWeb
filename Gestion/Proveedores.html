@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proveedores</title>
-    <link rel="stylesheet" href="../StyleP.css">
+    <link rel="icon" href=".././images/logo.png" type="image/png">
+    <title>Repuestos Automotrices</title>
+    <link rel="stylesheet" href="../EstilosCss/Empleados.css">
 </head>
 <body>
-    <div><h1>Esta es la pagina de Proveedores</h1></div>
      <ul class="menu">
         <li><a href="../Principal.html">Incio</a></li>
         <li><a href="#">Gestion</a>
@@ -30,5 +30,47 @@
         </ul>
         </li>
    </ul>
+
+   <div class="info-box">
+        <h2 >Gestión de Proveedores</h2>
+
+        <form id="form-empleado" class="formEmpleado">
+            <fieldset><legend>Registrar Proveedor</legend>
+                <label>Nombre:<br>
+                <input type="text" id="nombre" required>
+                </label>
+
+                <label>Tipo de repuestos:<br>
+                <input type="text" id="tipoRepuestos" required>
+                </label>
+
+                <label>Email:<br>
+                <input type="email" id="email" required>
+                </label>
+
+                <label>Telefono:<br>
+                <input type="tel" id="telefono" required>
+                </label>
+
+                <button type="submit" class="btnA">Agregar</button>
+            </fieldset>
+        </form>
+
+        <h3 class="tituloLista">Lista de Proveedores</h3>
+
+        <table border="1" width="100%" id="tablaEmpleados">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Tipo de repuestos</th>
+                    <th>Email</th>
+                    <th>Telefono</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+   </div>
 </body>
 </html>
