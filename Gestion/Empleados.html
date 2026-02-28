@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empleados</title>
+    <title>Repuestos Automotrices</title>
+    <link rel="icon" href=".././images/logo.png" type="image/png">
     <link rel="stylesheet" href="../EstilosCss/Empleados.css">
 </head>
 <body>
@@ -30,5 +31,43 @@
         </ul>
         </li>
    </ul>
+
+   <div class="info-box">
+        <h2 >Gestión de Empleados</h2>
+
+        <form id="form-empleado" class="formEmpleado">
+            <fieldset><legend>Registrar Empleado</legend>
+                <label>Nombre:<br>
+                <input type="text" id="nombre" required>
+                </label>
+
+                <label>Puesto:<br>
+                <input type="text" id="puesto" required>
+                </label>
+
+                <label>Salario:<br>
+                <input type="number" id="salario" required>
+                </label>
+
+                <button type="submit" class="btnA">Agregar</button>
+            </fieldset>
+        </form>
+
+        <h3 class="tituloLista">Lista de Empleados</h3>
+
+        <table border="1" width="100%" id="tablaEmpleados">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Puesto</th>
+                    <th>Salario</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+   </div>
 </body>
 </html>
